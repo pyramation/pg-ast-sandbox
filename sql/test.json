@@ -1,0 +1,59 @@
+[
+  {
+    "RawStmt": {
+      "stmt": {
+        "SelectStmt": {
+          "targetList": [
+            {
+              "ResTarget": {
+                "val": {
+                  "ColumnRef": {
+                    "fields": [
+                      {
+                        "A_Star": {}
+                      }
+                    ],
+                    "location": 11
+                  }
+                },
+                "location": 11
+              }
+            },
+            {
+              "ResTarget": {
+                "val": {
+                  "ColumnRef": {
+                    "fields": [
+                      {
+                        "String": {
+                          "str": "id"
+                        }
+                      }
+                    ],
+                    "location": 18
+                  }
+                },
+                "location": 18
+              }
+            }
+          ],
+          "fromClause": [
+            {
+              "RangeVar": {
+                "schemaname": "ast_helpers",
+                "relname": "foo",
+                "inh": true,
+                "relpersistence": "p",
+                "location": 30
+              }
+            }
+          ],
+          "limitOption": "LIMIT_OPTION_DEFAULT",
+          "op": "SETOP_NONE"
+        }
+      },
+      "stmt_len": 45,
+      "stmt_location": 0
+    }
+  }
+]

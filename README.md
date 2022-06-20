@@ -3,6 +3,8 @@
 ## 0 install
 
 ```
+git clone git@github.com:pyramation/pg-ast-sandbox.git 
+cd pg-ast-sandbox
 yarn 
 ```
 
